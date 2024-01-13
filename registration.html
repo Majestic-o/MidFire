@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reg.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet&display=swap" rel="stylesheet">
+    <link rel = "icon" href = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSptxXOySqtezsF4bRyO5qqfffldyLDfRSbF_EH_YRVjr7lwYpxSHMesGSt4jqIgIwPNwc&usqp=CAU" 
+        type = "image/x-icon">
+    <title>MIDFIRE</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="https://wallpapers.com/images/hd/assassin-s-creed-iv-skull-gaming-logo-y41v0ikztfjb947e.jpg" alt="MidFire">       MIDFIRE</a>
+            <div class="navlinks">
+                <UL>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="registration.html">REGISTRATION</a></li>
+                </UL>
+            </div>
+        </nav>
+
+
+
+        <div class="reg">
+            <h1>REGISTRATION FORM</h1>
+            <form action="" name="formName" id="contactForm">
+                <p title="Enter your Full Name">Full Name:</p>
+                <input type="text" placeholder="Full Name" name="fullname" id="name">
+                <p title="Enter your User Name">Gamer Tag:</p>
+                <input type="text" placeholder="User Name" name="gamertag" id="gamertag">
+                <p title="Enter your Working Email Address">Email:</p>
+                <input type="email" placeholder="Email" name="email" id="email">
+                <p title="Enter your Email Password">Discord ID:</p>
+                <input type="text" placeholder="Discord ID" name="discordID" id="discordID">
+                <p title="Enter your Phonr Number">Phone Number:</p>
+                <input type="number" placeholder="Phone Number" name="phoneno" id="phoneno">
+                <p title="Enter your Age">Age:</p>
+                <input type="number" placeholder="Age" name="age" id="age"><br>
+                 <button type="submit">Register</button>
+
+                 <div class="alert">Registered Succesfully</div>
+            </form>
+          </div>
+
+    </section>
+    
+
+
+    
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="script.js"></script>
+
+    <!-- <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbybMO9NHJ3z4DPtEpSi8GT6jzmYAZ7_OyaFl-7DgtM6Oi_LTTG98yqw1cDhRm9TKNDp/exec'
+        const form = document.forms['contactForm']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => alert("Thank you! your form is submitted successfully." ))
+            .then(() => {  window.location.reload(); })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script> -->
+    
+</body>
+</html>
